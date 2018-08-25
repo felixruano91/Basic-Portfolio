@@ -24,7 +24,6 @@ h1 {
 h2 {
     padding-bottom: 20px;
     border-bottom: 2px solid #dddddd;
-<<<<<<< HEAD
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -32,8 +31,6 @@ h3 {
     font-size: 14px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: inherit;
-=======
->>>>>>> 27cda948ac671fe6c4f30baa110afd10a4ae0633
 }
 
 p {
@@ -123,26 +120,21 @@ nav a:active {
     background-color: white;
     border-radius: 5px;
     border: 2px solid #dddddd;
-<<<<<<< HEAD
     margin: 40px auto;
     width: 960px;
     height: auto;
     padding: 30px 30px 30px 30px;
-=======
     margin: 20px auto;
     width: 960px;
     height: auto;
     padding: 30px 30px 0px 30px;
->>>>>>> 27cda948ac671fe6c4f30baa110afd10a4ae0633
     overflow: hidden;
 }
 
 /*This is the title in the body wrapper, above the grey line.*/
-<<<<<<< HEAD
+
 .body-heading {
-=======
-.body-heading{
->>>>>>> 27cda948ac671fe6c4f30baa110afd10a4ae0633
+
     color: #4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 24px;
@@ -153,10 +145,6 @@ nav a:active {
     height: 30px;
 }
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 27cda948ac671fe6c4f30baa110afd10a4ae0633
 /*This is my footer, had to fixed it to the bottom, otherwise it would be in the middel of the screen.*/
 footer {
     position: fixed;
@@ -183,7 +171,7 @@ footer {
     float: left;
 }
 
-<<<<<<< HEAD
+
 .row {
     display: flex;
     flex-wrap: wrap;
@@ -218,8 +206,6 @@ footer {
     text-align: center;
 }
 
-=======
->>>>>>> 27cda948ac671fe6c4f30baa110afd10a4ae0633
 /*Iffy stuff to make my bio-image vertical.*/
 .rotateimg90 {
     -webkit-transform: rotate(90deg);
@@ -240,10 +226,7 @@ footer {
     float: left;
 }
 
-<<<<<<< HEAD
 
-=======
->>>>>>> 27cda948ac671fe6c4f30baa110afd10a4ae0633
 /*contact.html starts here.*/
 
 input[type=text], select, textarea {
