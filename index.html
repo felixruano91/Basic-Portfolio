@@ -3,9 +3,9 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Felix Ruano's Portfolio</title>
+    <title>FRP</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="../Basic-Portfolio/assets/css/index.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
     <script src="index.js"></script>
 </head>
 
@@ -13,19 +13,25 @@
 
     
 
-<!-- Header, parte de arriba de la pantalla-->
+<!-- this is the top of the website, where my nav bar and nav home will be-->
 <header>
 
-    <div class="header-container">      
+    <!--This is where my nav bar starts, this whole division is for all the content inside of it.-->
+    <div class="nav-bar">  
 
-        <h1 class="container-name">Felix Ruano</h1>
+        <!--nav home is where "Felix Ruano" will be displayed inside of a blue box.-->
+        <div id="nav-home">
+            
+            <h1>Felix Ruano</h1>
+            
+        </div>
 
-     <!--Links de la pagina, navigation menu-->
+     <!--all the links inside my navigation menu-->
         <nav>
             <ul>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="index.html">About</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
 
@@ -36,14 +42,15 @@
 <br>
 
 
-<!--Esto es el cuerpo de la pagina, todo lo que no esta en el header-->
-<div id="about-me">
+<!--The body wrapper is where the content of the webpage will be-->
+<section class="body-wrapper">
         
-    <h2>About Me</h2><br>
+    <!--The title of the body wrapper depending where am I-->
+    <h2 class="body-heading">About Me</h2><br>
 
 
-
-    <div class="container">
+    <!--Container for index.html-->
+    <div class="container-index">
 
         <section id="bio-image">
 
@@ -53,9 +60,18 @@
 
     </div>
       
-    <h4><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi interdum laoreet justo non sollicitudin. Curabitur ac aliquam nisl. Sed hendrerit diam rhoncus, lacinia ante lacinia, placerat elit. Sed gravida, felis quis imperdiet venenatis, nibh elit mattis ipsum, pharetra lobortis mauris enim in nunc. Donec vitae ornare tortor, vitae tempor turpis. Aliquam faucibus dolor sit amet massa ultrices, at molestie dui accumsan. Quisque ullamcorper ac velit sit amet sodales. Cras lacinia lorem sed sagittis ultrices. Ut sed ipsum eu mauris suscipit euismod egestas vitae nunc. Sed sed lobortis sem, eu pretium eros.</p></h4>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi interdum laoreet justo non sollicitudin. Curabitur ac aliquam nisl. Sed hendrerit diam rhoncus, lacinia ante lacinia, placerat elit. Sed gravida, felis quis imperdiet venenatis, nibh elit mattis ipsum, pharetra lobortis mauris enim in nunc. Donec vitae ornare tortor, vitae tempor turpis. Aliquam faucibus dolor sit amet massa ultrices, at molestie dui accumsan. Quisque ullamcorper ac velit sit amet sodales. Cras lacinia lorem sed sagittis ultrices. Ut sed ipsum eu mauris suscipit euismod egestas vitae nunc. Sed sed lobortis sem, eu pretium eros.</p>
 
-</div>
+</section>
+
+<!--Bottom part of the page-->
+<footer>
+    <div id="footer-copyright">
+        <p id="copyright-text">Copyright ©</p>
+    </div>
+</footer>
     
+
+
 </body>
 </html>
